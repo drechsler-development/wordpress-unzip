@@ -14,21 +14,21 @@ into the document root folder where wordpress will run later on.
 Please make sure that the zip file itself dous not contain the wordpress folder as below:
 
 wordpress.zip
-		-> wordpress <-- that is wrong!!!!!!
-			-> wp-admin
-			-> wp-content
-			-> wp-includes
-			-> index.php
-			-> ... others
+- ---- wordpress <-- that is wrong!!!!!!
+- -------- wp-admin
+- -------- wp-content
+- -------- wp-includes
+- -------- index.php
+- -------- ... others
 
 It must contain the folder and scripts as below:
 
 wordpress.zip
-		-> wp-admin
-		-> wp-content
-		-> wp-includes
-		-> index.php
-		-> ... others
+- -------- wp-admin
+- -------- wp-content
+- -------- wp-includes
+- -------- index.php
+- --------  ... others
 
 After you copied the files, point to your domain with /zip.php like (https://www.your-domain.de/zip.php)
 When all went fine you should be redirected to the WordPress installation folder. 
